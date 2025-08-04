@@ -1,0 +1,6 @@
+song_id,title,genre,lyrics,emotion_embedding,genre_embedding,lyrics_embedding
+song_001,Faded Memories,sad,"I'm lost in the rain...",[0.23, 0.45, 0.66],[0.12, 0.33, 0.55],[0.87, 0.65, 0.43]
+song_002,Back to Us,sad,"Wish we could go back...",[0.24, 0.44, 0.61],[0.13, 0.30, 0.52],[0.85, 0.62, 0.48]
+song_003,Runaway Lights,rock,"Take me away tonight...",[0.61, 0.42, 0.50],[0.81, 0.60, 0.72],[0.65, 0.47, 0.53]
+song_004,Dream Walker,chill,"Floating above the sky...",[0.33, 0.25, 0.71],[0.21, 0.14, 0.68],[0.72, 0.78, 0.55]
+song_005,Sunshine Drive,pop,"Waves crash, we shine bright",[0.80, 0.72, 0.66],[0.91, 0.81, 0.77],[0.88, 0.85, 0.70]

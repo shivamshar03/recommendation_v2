@@ -1,0 +1,35 @@
+{
+  "user_id": "user_101",
+  "timestamp": "2025-07-31 23:45:00",
+  "recent_songs": [
+    {
+      "song_id": "song_001",
+      "title": "Faded Memories",
+      "genre": "sad",
+      "emotion": "melancholic",
+      "liked": true,
+      "skipped": 0,
+      "duration_played": 3.5
+    },
+    {
+      "song_id": "song_002",
+      "title": "Back to Us",
+      "genre": "sad",
+      "emotion": "nostalgic",
+      "liked": false,
+      "skipped": 1,
+      "duration_played": 1.8
+    },
+    {
+      "song_id": "song_007",
+      "title": "Sunshine Drive",
+      "genre": "pop",
+      "emotion": "happy",
+      "liked": true,
+      "skipped": 0,
+      "duration_played": 2.9
+    }
+  ],
+  "average_replays": 2.1,
+  "total_skips": 4
+}
