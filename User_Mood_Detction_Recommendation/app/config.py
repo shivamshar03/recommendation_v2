@@ -5,15 +5,17 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 class Config:
     # API Keys
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
     GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
     # Paths
-    SONG_DB_PATH = "app/data/sample_song_db.csv"
-    USER_ACTIVITY_PATH = "app/data/sample_user_activity.json"
-    FAISS_INDEX_PATH = "app/vector_search/faiss_index"
+    SONG_DB_PATH = os.path.join(BASE_DIR, "app", "data", "sample_song_db.csv")
+    USER_ACTIVITY_PATH = os.path.join(BASE_DIR, "app", "data", "sample_user_activity.json")
+    FAISS_INDEX_PATH = os.path.join(BASE_DIR, "app", "vector_search", "faiss_index")
 
     # LLM Parameters
     LLM_MODEL = "gpt-3.5-turbo"

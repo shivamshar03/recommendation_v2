@@ -1,35 +1,22 @@
 {
-  "user_id": "user_101",
-  "timestamp": "2025-07-31 23:45:00",
+  "user_id": "user_001",
+  "timestamp": "2025-08-04 14:00",
   "recent_songs": [
     {
-      "song_id": "song_001",
-      "title": "Faded Memories",
-      "genre": "sad",
-      "emotion": "melancholic",
-      "liked": true,
-      "skipped": 0,
-      "duration_played": 3.5
+      "song_id": "song_101",
+      "title": "Happy Vibes",
+      "genre": "Pop",
+      "artist": "Artist A",
+      "emotion": "happy"
     },
     {
-      "song_id": "song_002",
-      "title": "Back to Us",
-      "genre": "sad",
-      "emotion": "nostalgic",
-      "liked": false,
-      "skipped": 1,
-      "duration_played": 1.8
-    },
-    {
-      "song_id": "song_007",
-      "title": "Sunshine Drive",
-      "genre": "pop",
-      "emotion": "happy",
-      "liked": true,
-      "skipped": 0,
-      "duration_played": 2.9
+      "song_id": "song_102",
+      "title": "Chill Mood",
+      "genre": "Indie",
+      "artist": "Artist B",
+      "emotion": "calm"
     }
   ],
-  "average_replays": 2.1,
-  "total_skips": 4
+  "average_replays": 2.5,
+  "total_skips": 1
 }

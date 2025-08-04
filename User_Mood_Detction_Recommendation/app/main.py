@@ -1,6 +1,7 @@
-from app.services.recommendation import generate_recommendations
-from app.config import config
-from app import logger
+from .services.recommendation import generate_recommendations
+
+from .config import config
+from . import logger
 
 
 def main():

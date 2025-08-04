@@ -1,1 +1,41 @@
-l
+# Audio processing
+librosa==0.10.1
+pydub==0.25.1
+ffmpeg-python==0.2.0
+
+# Lyrics transcription (speech to text)
+openai-whisper==20231117
+torch==2.1.0
+
+# Text embeddings and LLMs
+transformers==4.40.0
+sentence-transformers==2.6.1
+langchain==0.1.20
+openai==1.30.1
+tqdm==4.66.2
+
+# Vector search
+faiss-cpu==1.7.4  # Use faiss-gpu if using GPU
+
+# Data manipulation
+pandas==2.2.2
+numpy==1.26.4
+
+# Real-time backend or API
+fastapi==0.111.0
+uvicorn==0.30.1
+
+# Optional: If using Streamlit for visualization
+#streamlit==1.35.0
+
+# Scheduling and utilities
+apscheduler==3.10.4
+python-dotenv==1.0.1
+scikit-learn==1.4.2
+
+# For emotion classification from text
+nltk==3.8.1
+textblob==0.18.0.post0
+
+# Logging / Debugging
+loguru==0.7.2
